@@ -1,0 +1,1120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+/* COMMON */
+html {
+    font-size: 62.5%;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* HEADER */
+.header_container {
+    width: 100%;
+    padding: 2.8rem 0 1.4rem;
+}
+.header_inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.header_logo {
+    opacity: 1;
+}
+.header_info {
+	padding-top: 1.4rem;
+}
+.header_info p {
+    width: 28.5rem;
+    height: 2rem;
+    margin-bottom: 0.7rem;
+    font: normal normal normal 1.4rem/2rem Noto Sans JP;
+    text-align: right;
+    color: #444444;
+    opacity: 1;
+}
+.header_tel {
+    width: 28.5rem;
+    height: 3.5rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.header_tel img {
+    padding-top: 0.793rem;
+    display: inline-block;
+}
+.header_tel a {
+    margin-left: 4.78px;
+    display: inline-block;
+    font: normal normal bold 2.4rem/2.4rem Noto Sans JP;
+    color: #21a937;
+    text-decoration: none;
+} 
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 414px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+	.header_container {
+        padding: 2.8rem 0;
+	}
+	.header_inner {
+        width: 61%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+	}
+	.header_info {
+		margin-top: 0;
+	}
+	.header_tel {
+        padding-top: 0;
+        justify-content: flex-end;
+	}
+}
+@media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1980px) {
+}
+
+/* FV */
+.fv_container {
+    width: 100%;
+    height: 500px;
+    background: transparent url(../img/fv_bg.png) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: 75%;
+    opacity: 1;
+}
+.fv_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.fv_txt_container {
+    position: absolute;
+    width: 120px;
+    height: 300px;	
+    top: 170px;
+    left: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.fv_txt {
+    height: 100%;
+    background: #fff;
+    opacity: 1;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.fv_txt h1 {
+    width: 100%;
+    padding: 1rem 1.5rem 1rem;
+    font: normal normal bold 1.8rem/2.4rem Noto Sans JP;
+    letter-spacing: 0.2rem;
+    text-align: left;
+    color: #444444;
+    white-space: nowrap;
+}
+.fv_txt h1 span {
+    font: normal normal bold 1.8rem/2.4rem Noto Sans JP;
+    color: #21a937;
+}
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 414px) {
+	.fv_container {
+		height: 700px;
+	}
+	.fv_txt_container {
+        width: 200px;
+        height: 412px;	
+        top: 250px;
+        left: 35px;
+	}
+	.fv_txt h1 {
+        padding: 1rem 3rem 1rem;
+        font: normal normal bold 2.4rem/3rem Noto Sans JP;
+        letter-spacing: 0.4rem;
+	}
+	.fv_txt h1 span {
+        font: normal normal bold 2.4rem/3rem Noto Sans JP;
+        color: #21a937;
+	}
+}
+@media screen and (min-width: 768px) {
+	.fv_container {
+		height: 947px;
+	}
+	.fv_txt_container {
+        width: 250px;
+        height: 525px;	
+        top: 320px;
+        left: 50px;
+	}
+	.fv_txt h1 {
+        padding: 1.8rem 3.4rem 3.1rem;
+        font: normal normal bold 2.8rem/3.4rem Noto Sans JP;
+        letter-spacing: 0.6rem;
+
+        /*テスト用コード追加*/
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+	}
+	.fv_txt h1 span {
+        font: normal normal bold 2.8rem/3.4rem Noto Sans JP;
+        color: #21a937;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.fv_container {
+        background-position: center;
+	}
+	.fv_txt_container {
+        width: 284px;
+        height: 565px;	
+        top: 133px;
+        left: 211px;
+	}
+	.fv_txt h1 {
+        padding: 1.8rem 3.4rem 7.1rem;
+	}
+}
+@media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1980px) {
+}
+
+/* BELIEF */
+.belief_container {
+    width: 100%;
+    height: 50rem;
+    margin: 6rem auto 1rem;
+}
+.belief_inner {
+    position: relative;
+    width: 100%;
+    padding: 0 2rem;
+    top: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.belief_txt {
+    width: 100%;
+    margin: 3.1rem 0 0;
+}
+.belief_heading1 {
+    width: 19.2rem;
+    height: auto;
+    margin: 0 auto 3.2rem;
+}
+.belief_heading1_border {
+    font-weight: bold;
+    background: linear-gradient(transparent 71%, #99e5a5 71%);
+    padding-right: 0.8rem;
+}
+.belief_heading2 {
+    width: 14.4rem;
+    margin: 0 auto 3.7rem;
+}
+.belief_heading2_border {
+    font-weight: bold;
+    background: linear-gradient(transparent 71%, #99e5a5 71%);
+}
+.belief_txt h2 {
+    width: 100%;
+    font: normal normal bold 1.6rem/2.6rem Noto Sans JP;
+    text-align: left;
+    color: #444444;
+    white-space: nowrap;
+}
+.belief_description {
+    margin: -1.2rem auto;
+}
+.belief_txt p {
+    font: normal normal normal 1.2rem/3rem Noto Sans JP;
+    font-family: "Noto Sans JP";
+    text-align: center;
+    color: #444444;
+    white-space: nowrap;
+}
+.belief_img1 {
+    width: 100%;
+    display: block;
+}
+.belief_img2 {
+    display: none;
+}
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 414px) {
+	.belief_container {
+		height: 57.5rem;
+        margin: 6rem auto 2.5rem;
+    }
+    .belief_heading1 {
+        width: 24rem;
+    }
+    .belief_heading2 {
+        width: 18rem;
+    }
+    .belief_txt h2 {
+        font: normal normal bold 2rem/3rem Noto Sans JP;
+    }
+    .belief_txt p {
+        font: normal normal normal 1.2rem/3.4rem Noto Sans JP;
+    }
+}
+@media screen and (min-width: 500px) {
+	.belief_container {
+		height: 72.5rem;
+        margin: 7rem auto 1rem;
+    }
+    .belief_txt {
+        width: 41.5rem;
+        margin: 3.1rem auto 0;
+    }
+    .belief_heading1 {
+        width: 27.6rem;
+    }
+    .belief_heading2 {
+        width: 21.6rem;
+    }
+    .belief_txt h2 {
+        font: normal normal bold 2.4rem/3.5rem Noto Sans JP;
+    }
+    .belief_txt p {
+        font: normal normal normal 1.6rem/3.8rem Noto Sans JP;
+    }
+}
+@media screen and (min-width: 700px) {
+    .belief_container {
+        width: 690px;
+        height: 75rem;
+        margin: 8rem auto 2.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .belief_heading1 {
+        width: 27.6rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1280px) {
+    .belief_container {
+        width: 118rem;
+        height: 66.4rem;
+        margin: 0 auto;
+    }
+    .belief_inner {
+        top: 16.2rem;
+        flex-flow: row;
+    }
+    .belief_txt {
+        height: 100%;
+        margin: 0 0;
+        padding-top: 3.1rem;
+        padding-bottom: 11.5rem;
+    }
+    .belief_heading1 {
+        width: 27.6rem;
+        height: auto;
+        margin: 0 0 3.2rem;
+    }
+    .belief_heading2 {
+        margin: 0 0 3.7rem;
+    }
+    .belief_txt h2 {
+        font: normal normal bold 2.4rem/3.5rem Noto Sans JP;
+    }
+    .belief_description {
+        margin: -1.2rem 0;
+    }
+    .belief_txt p {
+        text-align: left;
+    }
+    .belief_img1 {
+        display: none;
+    }
+    .belief_img2 {
+        display: block;
+    }
+}
+@media screen and (min-width: 1980px) {
+}
+
+/* TREATMENT */
+.treatment_container {
+    width: 100%;
+    height: auto;
+    background: #F5FCF8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.treatment_inner {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.treatment_title {
+    width: 100%;
+    padding-top: 3rem;
+}
+.treatment_title h2 {
+    font: normal normal bold 1.6rem/2.6rem Noto Sans JP;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    white-space: nowrap;
+}
+.treatment_title_border {
+    font-weight: bold;
+    background: linear-gradient(transparent 74%, #99e5a5 74%);
+    padding: 0 0.35rem;
+}
+.treatment_description {
+    width: 100%;
+    margin-top: 3rem;
+}
+.treatment_description p {
+    font: normal normal normal 1.2rem/3rem Noto Sans JP;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.treatment .contents {
+    width: 100%;
+    height: auto;
+    margin-top: 1.7rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.treatment .contents_item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2.5rem;
+    padding: 2rem 0;
+    border: 0.2rem solid #C9C9C9;
+    border-radius: 1rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+}
+.treatment .contents_title {
+    padding-bottom: 3rem;
+}
+.treatment .contents_title h3 {
+    font: normal normal bold 1.6rem/2.6rem Noto Sans JP;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.treatment .contents_description {
+    height: auto;
+    margin-top: -1.2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.treatment .contents_description1 {
+    padding: 0 3rem 0 3.1rem;
+}
+.treatment .contents_description2 {
+    padding: 0 3.8rem;
+}
+.treatment .contents_description3 {
+    padding: 0 2.8rem;
+}
+.treatment .contents_description p {
+    font: normal normal bold 1.5rem/3.8rem Noto Sans JP;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    white-space: nowrap;
+}
+.treatment .contents_img {
+    display: inline-block;
+}
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 414px) {
+	.treatment_title {
+        padding-top: 4rem;
+	}
+	.treatment_title h2 {
+        font: normal normal bold 2rem/3rem Noto Sans JP;
+	}
+	.treatment_description {
+        margin-top: 4rem;
+	}
+	.treatment_description p {
+        font: normal normal normal 1.2rem/3.4rem Noto Sans JP;
+	}
+	.treatment .contents {
+        margin-top: 2rem;
+	}
+	.treatment .contents_item {
+        margin-bottom: 3rem;
+	}
+	.treatment .contents_title h3 {
+        font: normal normal bold 2rem/3rem Noto Sans JP;
+	}
+	.treatment .contents_description p {
+        font: normal normal bold 1.6rem/3.8rem Noto Sans JP;
+	}
+}
+@media screen and (min-width: 500px) {
+    .treatment_title h2 {
+        font: normal normal bold 2.4rem/3.5rem Noto Sans JP;
+	}
+    .treatment_description p {
+        font: normal normal normal 1.6rem/3.8rem Noto Sans JP;
+	}
+    .treatment .contents_title h3 {
+        font: normal normal bold 2.4rem/3.5rem Noto Sans JP;
+	}
+}
+@media screen and (min-width: 720px) {
+	.treatment_title {
+        padding-top: 5rem;
+	}
+	.treatment_title h2 {
+        font: normal normal bold 2.4rem/3.8rem Noto Sans JP;
+	}
+	.treatment_description {
+        margin-top: 5rem;
+	}
+	.treatment .contents {
+        margin-top: 2.3rem;
+	}
+	.treatment .contents_item {
+        margin-bottom: 4rem;
+        padding: 4rem 4rem;
+	}
+	.treatment .contents_title {
+        padding-bottom: 4rem;
+	}
+	.treatment .contents_title h3 {
+        font: normal normal bold 2.4rem/3.8rem Noto Sans JP;
+	}
+	.treatment .contents_description {
+        flex-flow: row;
+	}
+}
+@media screen and (min-width: 768px) {
+	.treatment_inner {
+        width: 69rem;
+	}
+	.treatment_title {
+        width: 100%;
+        padding-top: 6rem;
+	}
+	.treatment_description {
+        width: 100%;
+        margin-top: 6rem;
+	}
+	.treatment .contents {
+        margin-top: 2.5rem;
+	}
+	.treatment .contents_item {
+        margin-bottom: 5rem;
+	}
+	.treatment .contents_title {
+        padding-bottom: 4.5rem;
+	}
+}
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1280px) {
+	.treatment_container {
+        height: 91.3rem;
+	}
+	.treatment_inner {
+        width: 118rem;
+	}
+	.treatment_title {
+        width: 100%;
+        padding-top: 7.65rem;
+	}
+	.treatment .contents {
+        height: 59.1rem;
+        flex-flow: row;
+	}
+	.treatment .contents_item {
+        width: 38rem;
+        height: 59.1rem;
+        padding: 0;
+        margin-bottom: 0;
+	}
+	.treatment .contents_title {
+        padding-top: 4rem;
+	}
+	.treatment .contents_description {
+        height: 47.8rem;
+        flex-flow: column;
+	}
+}
+@media screen and (max-width: 1980px) {
+}
+
+/* NOTIFICATION */
+.notification_container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+    background: #F5FCF8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.notification_inner {
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+}
+.notification_title {
+    width: 100%;
+    padding-top: 3rem;
+}
+.notification_title h2 {
+    font: normal normal bold 1.6rem/2.6rem Noto Sans JP;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.notification_title_border {
+    font-weight: bold;
+    background: linear-gradient(transparent 74%, #99e5a5 74%);
+    padding: 0 0.35rem;
+}
+.notification .contents {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+.notification .contents_container {
+    width: 100%;
+    padding: 2rem 3rem 0 3rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+}
+.notification .contents_item {
+    padding: 1rem 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 0.2rem solid #E7E7E7;
+    opacity: 1;
+}
+.notification .contents_item dt {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.notification .contents_item time {
+    font: normal normal bold 1.5rem/3.8rem Noto Sans JP;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #21A937;
+    opacity: 1;
+}
+.notification .contents_item_h_container {
+    position: relative;
+    width: 8rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    background: #444444 0% 0% no-repeat padding-box;
+}
+.notification .contents_item h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font: normal normal bold 1.2rem/3rem Noto Sans JP;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    white-space: nowrap;
+}
+.notification .contents_item dd {
+    margin-left: 0;
+    font: normal normal bold 1.5rem/3rem Noto Sans JP;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.notification .contents .all_look_button_container {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.notification .contents .all_look_button {
+    display: inline-block;
+    position: relative;
+    font: normal normal bold 1.5rem/3.8rem Noto Sans JP;
+    text-align: right;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.notification .contents .all_look_button::after {
+    content: "▶";
+    position: absolute;
+    left: 100%;
+    margin-left: 0.752rem;
+}
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 414px) {
+    .notification_container {
+        padding-bottom: 4rem;
+    }
+    .notification_title {
+        padding-top: 4rem;
+    }
+    .notification_title h2 {
+        font: normal normal bold 2rem/3rem Noto Sans JP;
+    }
+    .notification .contents {
+        padding-top: 4rem;
+    }
+    .notification .contents_container {
+        padding: 2.5rem 3.5rem 0 3.5rem;
+    }
+    .notification .contents_item time {
+        font: normal normal bold 1.5rem/3.2rem Noto Sans JP;
+    }
+    .notification .contents_item dd {
+        font: normal normal bold 1.5rem/3.2rem Noto Sans JP;
+    }
+}
+@media screen and (min-width: 500px) {
+    .notification_title h2 {
+        font: normal normal bold 2.4rem/3.5rem Noto Sans JP;
+    }
+    .notification .contents_item time {
+        font: normal normal bold 1.5rem/3.4rem Noto Sans JP;
+    }
+    .notification .contents_item dd {
+        font: normal normal bold 1.5rem/3.4rem Noto Sans JP;
+    }
+}
+@media screen and (min-width: 720px) {
+    .notification_container {
+        padding-bottom: 5rem;
+    }
+    .notification_title {
+        padding-top: 5rem;
+    }
+    .notification_title h2 {
+        font: normal normal bold 2.4rem/3.8rem Noto Sans JP;
+    }
+    .notification .contents {
+        padding-top: 5rem;
+    }
+    .notification .contents_container {
+        padding: 3rem 4rem 0 4rem;
+    }
+    .notification .contents_item_h_container {
+        margin-left: 2rem;
+    }
+    .notification .contents_item h3 {
+        font: normal normal bold 1.2rem/3.8rem Noto Sans JP;
+    }
+    .notification .contents_item time {
+        font: normal normal bold 1.6rem/3.8rem Noto Sans JP;
+    }
+    .notification .contents_item dd {
+        font: normal normal bold 1.6rem/3.8rem Noto Sans JP;
+    }
+    .notification .contents .all_look_button_container {
+        height: 9rem;
+    }
+    .notification .contents .all_look_button {
+        font: normal normal bold 1.6rem/3.8rem Noto Sans JP;
+    }
+}
+@media screen and (min-width: 768px) {
+    .notification_container {
+        padding-bottom: 6rem;
+    }
+    .notification_title {
+        padding-top: 6rem;
+    }
+    .notification .contents {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 6rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .notification_container {
+        padding-bottom: 6.5rem;
+    }
+    .notification_title {
+        padding-top: 6.5rem;
+    }
+    .notification .contents {
+        padding-top: 6.5rem;
+    }
+    .notification .contents_container {
+        padding: 3.5rem 4.5rem 0 4.5rem;
+    }
+    .notification .contents_item_h_container {
+        margin-left: 2.5rem;
+    }
+    .notification .contents .all_look_button_container {
+        height: 10rem;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .notification_container {
+        height: 60.7rem;
+        padding-bottom: 0;
+    }
+    .notification_inner {
+        width: 118rem;
+    }
+    .notification_title {
+        padding-top: 0;
+    }
+    .notification .contents {
+        padding-top: 6.85rem;
+    }
+    .notification .contents_container {
+        padding: 4.075rem 6.6rem 0 6.6rem;
+    }
+    .notification .contents_item {
+        padding: 1.25rem 0;
+        flex-flow: row;
+        align-items: center;
+    }
+    .notification .contents_item_h_container {
+        margin-left: 3rem;
+    }
+    .notification .contents_item dd {
+        margin-left: 3rem;
+    }
+    .notification .contents .all_look_button_container {
+        height: 10.95rem;
+    }
+}
+@media screen and (max-width: 1980px) {
+}
+
+/*` COMTACT */
+.contact_container {
+    width: 100%;
+    height: auto;
+}
+.contact_inner {
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_inner .map1 {
+    display: block;
+}
+.contact_inner .map2 {
+    display: none;
+}
+.contact_inner .map1 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+}
+.contact_inner .map1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.contact_inner .info_block1 {
+    width: 100%;
+    display: block;
+}
+.contact_inner .info_block2 {
+    display: none;
+}
+.contact_inner .info {
+    width: 100%;
+    text-align: center;
+}
+.contact_inner .address {
+    display: block;
+    padding-top: 1.8rem;
+    font: normal normal normal 1.6rem/3.8rem Noto Sans JP;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.contact_inner .address .address_margin {
+    margin-left: 1.6rem;
+}
+.contact_inner .info_tel {
+    width: 28.5rem;
+    height: 3.5rem;
+    margin: 1.8rem auto 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact_inner .info_tel img {
+    padding-top: 0.793rem;
+    display: inline-block;
+}
+.contact_inner .info_tel a {
+    margin-left: 4.78px;
+    display: inline-block;
+    font: normal normal bold 2.4rem/2.4rem Noto Sans JP;
+    color: #21a937;
+    text-decoration: none;
+}
+.contact_inner .consultation_time {
+    width: 100%;
+    margin-top: 2.85rem;
+    border-top: 0.2rem solid #E7E7E7;
+    opacity: 1;
+} 
+.contact_inner .consultation_time dl {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact_inner .consultation_time dt {
+    width: 8.45rem;
+    font: normal normal bold 1.4rem/3.8rem Noto Sans JP;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.contact_inner .consultation_time dd {
+    font: normal normal normal 1.4rem/3.8rem Noto Sans JP;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.contact_inner .consultation_time .consultation_time_am_pm {
+    margin-top: -1.2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact_inner .consultation_time .consultation_time_am_pm .consultation_time_pm {
+    margin-left: 1.7rem;
+}
+.contact_inner .consultation_time .mark_border {
+    background: linear-gradient(transparent 70%, #99e5a5 70%);
+}
+.contact_inner .holiday {
+    margin-top: 1.3rem;
+    padding-bottom: 1.45rem;
+    border-bottom: 0.2rem solid #E7E7E7;
+    opacity: 1;
+}
+.contact_inner .holiday dl {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact_inner .holiday dt {
+    width: 8.45rem;
+    font: normal normal bold 1.4rem/3.8rem Noto Sans JP;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.contact_inner .holiday dd {
+    font: normal normal normal 1.4rem/3.8rem Noto Sans JP;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.contact_inner .copy_message {
+    padding-top: 1.05rem;
+    font: normal normal normal 1.2rem/3.8rem Noto Sans JP;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 414px) {
+}
+@media screen and (min-width: 500px) {
+}
+@media screen and (min-width: 720px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+    .contact_container {
+        height: 79.9rem;
+    }
+    .contact_inner {
+        padding-top: 19.6rem;
+        padding-bottom: 16.3rem;
+        flex-flow: row;
+    }
+    .contact_inner .map1 {
+        display: none;
+    }
+    .contact_inner .map2 {
+        display: block;
+    }
+    .contact_inner .map2 {
+        position: relative;
+        width: 48%;
+        height: 44rem;
+    }
+    .contact_inner .map2 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .contact_inner .info {
+        width: 48%;
+        text-align: left;
+    }
+    .contact_inner .info_block1 {
+        display: none;
+    }
+    .contact_inner .info_block2 {
+        display: block;
+    }
+    .contact_inner .address {
+        text-align: left;
+    }
+    .contact_inner .info_tel {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: flex-start;
+    }
+    .contact_inner .consultation_time {
+        padding-top: 1.05rem;
+    } 
+    .contact_inner .consultation_time dl {
+        flex-flow: row;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+    .contact_inner .consultation_time dt {
+        text-align: left;
+        font: normal normal normal 1.4rem/3.8rem Noto Sans JP;
+        border-right: 0.2rem solid #E7E7E7;
+    }
+    .contact_inner .consultation_time .margin_day {
+        margin-left: 2.85rem;
+    }
+    .contact_inner .consultation_time .margin_am {
+        margin-left: 2.3rem;
+    }
+    .contact_inner .consultation_time .margin_pm {
+        margin-left: 1.7rem;
+    }
+    .contact_inner .holiday dl {
+        flex-flow: row;
+    }
+    .contact_inner .holiday dt {
+        text-align: left;
+        font: normal normal normal 1.4rem/3.8rem Noto Sans JP;
+        border-right: 0.2rem solid #E7E7E7;
+    }
+    .contact_inner .holiday dd {
+        margin-left: 2.85rem;
+        text-align: left;
+    }
+    .contact_inner .copy_message {
+        text-align: right;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .contact_inner {
+        width: 118rem;
+    }
+    .contact_inner .map2 {
+        width: 60.8rem;
+        height: 44rem;
+    }
+    .contact_inner .info {
+        width: 53.8rem;
+    }
+    .contact_inner .address {
+        display: block;
+        padding-top: 1.8rem;
+        font: normal normal normal 1.6rem/3.8rem Noto Sans JP;
+        text-align: left;
+        letter-spacing: 0px;
+        color: #444444;
+        opacity: 1;
+    }
+    .contact_inner .address .address_margin {
+        margin-left: 1.6rem;
+    }
+    .contact_inner .holiday {
+        margin-top: 1.3rem;
+        padding-bottom: 1.45rem;
+        border-bottom: 0.2rem solid #E7E7E7;
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 1980px) {
+}
